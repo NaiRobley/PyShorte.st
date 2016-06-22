@@ -14,5 +14,3 @@ Usage:
 	Usage: python shst.py URL1 URL2 URL3...
 
 	Example: python shst.py google.com twitter.com facebook.com
-
-	More information at: http://github.com/NaiRobley/PyShorte.st
