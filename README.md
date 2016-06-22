@@ -1,4 +1,4 @@
-# PyShst
+# PyShorte.st
 A short script to generate sh.st short links quickly
 
 Feel free to clone and contribute.
