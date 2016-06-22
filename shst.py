@@ -34,7 +34,7 @@ def main():
 		print (usage)
 
 	except ConnectionError as e:
-		print (e+' Ensure you are connected to the internet')
+		print (' Ensure you are connected to the internet')
 
 if __name__ == '__main__':
 	print (usage)
