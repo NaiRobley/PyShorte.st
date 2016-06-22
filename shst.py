@@ -2,6 +2,7 @@
 #!/usr/bin/env python
 
 import requests
+from requests.exceptions import ConnectionError
 import json
 import os
 import sys
