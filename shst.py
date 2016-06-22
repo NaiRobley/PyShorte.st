@@ -17,7 +17,6 @@ usage = """
 
 	More information at: http://github.com/NaiRobley/PyShorte.st
 
-
 	"""
 
 def main():
@@ -32,6 +31,9 @@ def main():
 
 	except IndexError:
 		print (usage)
+
+	except ConnectionError as e:
+		print (e+' Ensure you are connected to the internet')
 
 if __name__ == '__main__':
 	print (usage)
