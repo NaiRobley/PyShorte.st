@@ -7,7 +7,7 @@ import json
 import os
 import sys
 
-__author__ = 'Robley Adrian < +254 722 161224 >'
+__author__ = 'Robley Adrian < robleyadrian@gmail.com >'
 
 usage = """
 	Welcome to sh.st url shortener.
