@@ -21,7 +21,7 @@ usage = """
 
 	"""
 
-def main():
+def shorten():
 	userUrls = [url for url in sys.argv[1:]] # Get the URLs from the user and add them to a list
 	try:
 		for userUrl in userUrls:
@@ -39,4 +39,4 @@ def main():
 
 if __name__ == '__main__':
 	print (usage)
-	main()
+	shorten()
